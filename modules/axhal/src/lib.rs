@@ -59,7 +59,7 @@ pub mod console {
     /// Write a slice of bytes to the console.
     pub fn write_bytes(bytes: &[u8]) {
         for c in bytes {
-            putchar(*c);
+            putchar(*c, "red");
         }
     }
 }

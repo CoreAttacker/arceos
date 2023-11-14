@@ -3,7 +3,7 @@
 
 pub mod console {
     /// Writes a byte to the console.
-    pub fn putchar(c: u8) {
+    pub fn putchar(c: u8, color: &str) {
         unimplemented!()
     }
 
